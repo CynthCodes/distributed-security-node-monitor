@@ -4,7 +4,7 @@ A Python-based cybersecurity project that simulates health monitoring and securi
 
 ## Project Status
 
-**Current Version:** V1 — Heartbeat Monitoring
+**Current Version:** V1 — Heartbeat Monitoring — Complete
 
 ## Overview
 
@@ -47,7 +47,7 @@ The primary objectives are to:
 
 |Version|Capability|Status|
 |-|-|-|
-|V1|Heartbeat monitoring|In progress|
+|V1|Heartbeat monitoring|Complete|
 |V2|Missed heartbeat detection|Planned|
 |V3|Security alerting|Planned|
 |V4|Automated node state management|Planned|
