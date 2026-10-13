@@ -52,3 +52,16 @@ NODE-003 ──┼──► CENTRAL MONITOR
 NODE-004 ──┤
 NODE-005 ──┘
 
+## 2026-10-13 — V2 Missed Heartbeat Detection
+
+**Status:** Implemented and functionally verified.
+
+**Configuration:** Heartbeat interval of 5 seconds; heartbeat timeout of 12 seconds.
+
+**Test scenario:** Simulated Oyo Branch stopping its heartbeat transmissions while the remaining nodes continued operating.
+
+**Result:** The monitor detected the missed heartbeat and identified Oyo Branch as unavailable.
+
+**Scope of verification:** The offline-node simulation passed. Recovery behaviour, delayed heartbeats, alert deduplication and monitoring-service failure remain separate verification targets.
+
+**Next milestone:** V3 — Security-relevant event detection and structured alerting.
